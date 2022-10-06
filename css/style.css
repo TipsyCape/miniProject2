@@ -3,18 +3,24 @@ body{
 }
 
 h1, h6{
+    stroke: black;
     color: rgb(255,255,255);
 }
 
 p{
+    stroke: black;
     color: rgb(255,255,255);
 }
 
+#hyper{
+    padding: 3px;
+    white-space: normal;
+    color:white;
+    background-color: black;
+    text-align: center;
+    position: relative;
+}
+
 #imageGallery{
-    width:auto;
-    height: auto;
-    max-width: 400px;
-    max-height: 400px;
-    display: grid;
-    grid-template-columns: 33% 33%;
+    display: inline-block;
 }
