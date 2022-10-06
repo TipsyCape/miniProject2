@@ -1,0 +1,20 @@
+body{
+    background-image: url(https://cff2.earth.com/uploads/2019/07/23185644/UltraDeepField-1024x1024.jpg);
+}
+
+h1, h6{
+    color: rgb(255,255,255);
+}
+
+p{
+    color: rgb(255,255,255);
+}
+
+#imageGallery{
+    width:auto;
+    height: auto;
+    max-width: 400px;
+    max-height: 400px;
+    display: grid;
+    grid-template-columns: 33% 33%;
+}
